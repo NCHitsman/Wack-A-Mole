@@ -1,0 +1,48 @@
+/* Write your CSS here. */
+.wgs {
+    display: inline-block;
+    position: relative;
+    width: 320px;
+    height: 241px;
+    overflow: hidden;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.wgs__mole-head {
+    position: absolute;
+    left: 54.5px; /*109*/
+    width: 188px; /*376*/
+    height: 178px; /*356*/
+    transition: margin-top 0.25s;
+}
+
+.wgs__dirt-pile {
+    position: absolute;
+    top: 131px;
+    width: 320px;
+    height: 110px;
+}
+
+.wgs__mole-head--hidden {
+    margin-top: 482px;
+}
+
+.pf {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topbar {
+    font-size: 30px;
+    margin: 15px;
+    font-family: monospace;
+}
